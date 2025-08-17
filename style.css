@@ -1,0 +1,115 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#download-btn {
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+#download-btn:hover {
+    background-color: rgb(8, 8, 47);
+    color: white;
+    transform: scale(1.2);
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.azeret-mono {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.first-section {
+    background-image: url("./assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0 15px 0;
+}
+
+.contact-btn {
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    width: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.contact-btn {
+    background-color: black;
+    color: white;
+}
+
+.contact-btn:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+}
+
+.first-div {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem;
+    border-radius: 1rem;
+    padding: 10px 10px 10px 10px;
+}
+
+.second-section h1,
+.second-section p {
+    text-align: center;
+}
+
+.second-section {
+    width: 80%;
+    border-radius: 2rem;
+    margin: auto;
+    background-color: rgb(214, 245, 235);
+    padding: 15px 0 15px 0;
+}
+
+.first-div-lite {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 1rem;
+    padding: 0 15px 15px 15px;
+}
+
+.learn-btn {
+    border-radius: 0;
+    height: 2.5rem;
+    width: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.learn-btn:hover {
+    background-color: rgb(8, 8, 47);
+    color: white;
+    transform: scale(1.2);
+}
